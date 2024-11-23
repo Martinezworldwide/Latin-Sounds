@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latin Sounds</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Trebuchet MS', sans-serif;
+      background: linear-gradient(180deg, #ff5733, #c70039);
+      color: #fefefe;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #900c3f;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    audio {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background: #581845;
+      color: #fefefe;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Latin Sounds</h1>
+    <p>Feel the rhythm and passion of Latin music.</p>
+  </header>
+  <div class="container">
+    <h2>Tracks</h2>
+    <div>
+      <audio controls>
+        <source src="media/latin1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p>Track 1: Salsa Groove</p>
+    </div>
+    <div>
+      <audio controls>
+        <source src="media/latin2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <p>Track 2: Flamenco Nights</p>
+    </div>
+  </div>
+  <footer>&copy; 2024 Latin Sounds</footer>
+</body>
+</html>
